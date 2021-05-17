@@ -1,16 +1,14 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "module": "commonjs",
-    "declaration": true,
+    "declaration": false,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "target": "es2017",
-    "lib": ["esnext"],
-    "sourceMap": true,
-    "outDir": "./dist",
+    "sourceMap": false,
+    "outDir": "./migration",
     "baseUrl": "./",
     "incremental": true
   }
